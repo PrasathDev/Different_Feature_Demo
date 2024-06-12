@@ -13,6 +13,9 @@ def feature4(person_age):
     if(person_age>18):
         print("Eligible for Vote")
     
+def feature5():
+    print("feature5 added")
+    
 if __name__=='__main__':
     check()
     vote_age=22
