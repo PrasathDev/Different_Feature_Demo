@@ -6,8 +6,10 @@ def feature1(age):
     print("additional part added in feature1")
     if(age>18):
         print("eligible to vote")
+    else:
+        print("Not Eligible")
     
 if __name__=='__main__':
     check()
-    age=22
-    feature1(age)
+    vote_age=22
+    feature1(vote_age)
