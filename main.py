@@ -1,13 +1,14 @@
 def check():
     print("I am calling")
 
-def feature1():
-    print("feature-1 is implemeted")
-
-def feature2():
+def feature2(drive_age):
     print("feature-2 is implemeted")
+    if (drive_age>20):
+        print("Eligible for applying driving license")
+    else:
+        print("Not Eligible")
     
 if __name__=='__main__':
+    drive_age=23
     check()
-    feature1()
-    feature2()
+    feature2(drive_age)
