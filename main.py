@@ -14,9 +14,15 @@ def feature3():
 def feature4(person_age):
     if(person_age>18):
         print("Eligible for Vote")
+
+def feature6(num):
+    if(num%2==0):
+        print("Even Number")
     
 if __name__=='__main__':
     drive_age=23
+    num=9
+    feature6(num)
     check()
     feature2(drive_age)
     feature3()
