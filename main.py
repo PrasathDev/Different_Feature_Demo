@@ -16,8 +16,13 @@ def feature4(person_age):
 def feature5():
     print("feature5 added")
     
+def feature10(x):
+    print(x)
+    
 if __name__=='__main__':
     drive_age=23
+    x=89
+    feature10(x)
     num=9
     check()
     vote_age=22
