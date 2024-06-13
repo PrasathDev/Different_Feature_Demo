@@ -22,3 +22,4 @@ if __name__=='__main__':
     check()
     vote_age=22
     feature1(vote_age)
+    feature4(drive_age)
