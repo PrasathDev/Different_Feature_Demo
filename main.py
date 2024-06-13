@@ -16,13 +16,9 @@ def feature4(person_age):
 def feature5():
     print("feature5 added")
     
-def feature7():
-    print("feature7 added")
-
-def feature8():
-    print("feature8 added")
 if __name__=='__main__':
-    number=22
+    drive_age=23
+    num=9
     check()
     vote_age=22
     feature1(vote_age)

@@ -1,0 +1,3 @@
+[merge "custom"]
+    name = "Custom merge driver to concatenate changes"
+    driver = /bin/sh ./merge-driver.sh %A %O %B
