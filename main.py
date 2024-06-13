@@ -22,6 +22,7 @@ def feature7():
 def feature8():
     print("feature8 added")
 if __name__=='__main__':
+    number=22
     check()
     vote_age=22
     feature1(vote_age)
