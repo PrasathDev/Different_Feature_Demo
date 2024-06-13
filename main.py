@@ -19,7 +19,6 @@ def feature5():
 if __name__=='__main__':
     drive_age=23
     num=9
-    feature6(num)
     check()
     vote_age=22
     feature1(vote_age)
