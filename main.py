@@ -18,11 +18,14 @@ def feature5():
     
 def feature10(x):
     print(x)
+
+def feature11(x):
+    print(x)
     
 if __name__=='__main__':
     drive_age=23
     x=89
-    feature10(x)
+    feature11(x)
     num=9
     check()
     vote_age=22
