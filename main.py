@@ -22,6 +22,9 @@ def feature10(x):
 def feature11(x):
     print(x)
     
+def feature12(s):
+    print(s)
+    
 if __name__=='__main__':
     drive_age=23
     x=89
@@ -31,3 +34,5 @@ if __name__=='__main__':
     vote_age=22
     feature1(vote_age)
     feature4(drive_age)
+    y=90
+    feature12(y)
