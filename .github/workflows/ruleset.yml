@@ -1,0 +1,32 @@
+name: Enforce Ruleset
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Ensure PR title follows convention
+        run: |
+          if [[ ! ${{ github.event.pull_request.title }} =~ ^[A-Z]+-[0-9]+: ]]; then
+            echo "PR title does not follow convention. It must start with a ticket number (e.g., ABC-123: )."
+            exit 1
+          fi
+
+      - name: Run Tests
+        run: |
+          # Replace this with your actual test command
+          echo "Running tests..."
+          exit 0
+
+      - name: Lint Code
+        run: |
+          # Replace this with your actual linting command
+          echo "Linting code..."
+          exit 0
